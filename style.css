@@ -1,0 +1,96 @@
+/* CSS - Cascading Style Sheet - define styles - design */
+
+/* how to appy css to html - what are the ways
+css selectors
+selector specificity 
+chaining selector to control specificity */
+
+/* Inline - as an attribute to a tag
+in the head
+external */
+
+/* CSS Selector */
+
+/* 1. tag -  div
+2. class - e.g .witclass
+3. id - e.g. #witid
+
+Specificity - ID > Class > tag */
+
+.blogcard{
+    /* property: value; */
+    width: 250px;
+    height: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 40px 40px 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+/* chaining */
+/* chaining with no space */
+section.blogcard{
+    color: red;
+}
+
+#witid{
+    color:blue
+}
+
+h3#witid{
+ border: 1px solid green;
+}
+
+/* chaining with space */
+
+
+div #blogarticle{
+    color: yellow;
+}
+
+#blogarticle{
+    color: tomato;
+}
+
+h5{
+    padding: 20px 5px 8px 10px;
+    margin: 30px 10px 1px 30px;
+    position: fixed;
+    top: 500px;
+    left: 500px;
+}
+
+/* hi{
+    position: 
+    top: 100px;
+} */
+
+    
+
+.blognocontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/*media queries*/
+@media (min-width: 400px) and (max-width: 789px) {
+    .blogcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.blogcard{
+    /* property: value; */
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 40px 40px 20px;
+    box-shadow: 5px 5px 5px black;
+    background-color: brown;
+}

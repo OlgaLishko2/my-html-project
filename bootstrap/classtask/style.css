@@ -1,0 +1,18 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+
+.card{
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: o 8px 16px -8px rgba(0, 0,0, 0.4);
+    border-radius: 8px;
+}
