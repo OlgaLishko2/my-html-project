@@ -9,6 +9,9 @@ html,body{
 .container{
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card{
@@ -50,4 +53,23 @@ html,body{
 
 .card .right-info header h1{
     text-align: center;
+}
+
+.card .right-info #user-description{
+    padding: 0px 20px;
+}
+
+.plus-minus-button{
+    padding: 5px 30px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to left, #0ec7e0, #1496e1);
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
